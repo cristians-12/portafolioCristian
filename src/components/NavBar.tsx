@@ -8,7 +8,9 @@ function NavBar() {
         theme === "dark" ? "text-white" : "text-black"
       } text-white z-30 justify-between items-center px-10`}
     >
-      <figure className="cursor-pointer font-bold text-[2rem]">C-12 DEV</figure>
+      <figure className="cursor-pointer font-extrabold text-[2rem] text-red-600">
+        C-12 DEV
+      </figure>
 
       <div>
         {theme === "light" ? (
