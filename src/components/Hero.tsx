@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Particles from "./ui/particles";
-import { useTheme } from "next-themes";
 import useThemeStore from "@/store/themeStore";
 
 function Hero() {
