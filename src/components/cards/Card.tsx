@@ -20,9 +20,7 @@ const Card: React.FC<CardProps> = ({ title, image, description }) => {
         gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
       >
         <img src={image} alt="" />
-        <h2 className="text-transparent font-extrabold text-red-500 bg-clip-text">
-          {title}
-        </h2>
+        <h2 className="font-extrabold text-red-600">{title}</h2>
         <p>{description}</p>
       </MagicCard>
     </Tilt>
