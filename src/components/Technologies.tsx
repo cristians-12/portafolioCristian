@@ -1,4 +1,3 @@
-import React from "react";
 import TechCard from "./cards/TechCard";
 import { technologies } from "@/constants/technologies";
 
