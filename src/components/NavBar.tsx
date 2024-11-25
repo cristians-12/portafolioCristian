@@ -10,7 +10,7 @@ function NavBar() {
       } text-white z-30 justify-between items-center px-10`}
     >
       <figure className="cursor-pointer font-extrabold text-[2rem] hover:text-red-500 text-transparent bg-gradient-to-b from-black to-red-600 bg-clip-text">
-        C-12 DEV
+        {"<C-12 DEV/>"}
       </figure>
 
       <div className="flex items-center gap-10 text-lg font-medium">
