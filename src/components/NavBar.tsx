@@ -20,14 +20,14 @@ function NavBar() {
             onClick={() => setTheme("dark")}
             className="bg-gray-800 hover:bg-gray-600 rounded-full p-2 cursor-pointer"
           >
-            <FaMoon color="white" size={30} />
+            <FaMoon color="red" size={30} />
           </div>
         ) : (
           <div
             onClick={() => setTheme("light")}
             className="bg-gray-800 hover:bg-gray-600 rounded-full p-2 cursor-pointer"
           >
-            <MdOutlineLightMode size={30} color="yellow" />
+            <MdOutlineLightMode size={30} color="red" />
           </div>
         )}
       </div>
