@@ -34,10 +34,10 @@ function Hero() {
     <>
       <div
         className={`relative ${
-          theme === "dark" ? "bg-slate-900" : "bg-white"
-        } flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border transition-colors duration-500 md:shadow-xl`}
+          theme === "dark" ? "bg-black" : "bg-white"
+        } flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg transition-colors duration-500 md:shadow-xl`}
       >
-        <span className="pointer-events-none whitespace-pre-wrap text-center text-4xl sm:text-6xl lg:text-8xl font-semibold leading-none text-transparent bg-gradient-to-b from-black to-white bg-clip-text dark:from-white dark:to-slate-900/10">
+        <span className="pointer-events-none whitespace-pre-wrap text-center text-4xl sm:text-6xl lg:text-8xl font-semibold leading-none text-transparent bg-gradient-to-b from-black to-red-600 bg-clip-text dark:from-white dark:to-slate-900/10">
           {text}
           <span
             className={`inline-block ${
@@ -49,8 +49,8 @@ function Hero() {
         </span>
         <Particles
           className="absolute inset-0"
-          quantity={200}
-          ease={80}
+          quantity={500}
+          ease={100}
           color={theme === "dark" ? "#ffffff" : "#000000"}
           refresh
         />
