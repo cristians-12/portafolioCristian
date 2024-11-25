@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import useThemeStore from "./store/themeStore";
 import Works from "@/components/Works";
+import Technologies from "./components/Technologies";
 
 function App() {
   const { theme } = useThemeStore();
@@ -15,8 +16,11 @@ function App() {
       >
         <NavBar />
         <Hero />
-        <About />
-        <Works />
+        <main className="lg:px-[15rem] px-[3rem]">
+          <About />
+          <Technologies />
+          <Works />
+        </main>
       </div>
     </>
   );

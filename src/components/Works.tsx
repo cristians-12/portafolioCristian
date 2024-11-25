@@ -3,8 +3,8 @@ import Card from "./cards/Card";
 
 function Works() {
   return (
-    <section className="px-[20rem] my-[50px]">
-      <h3 className="text-3xl font-medium text-white my-3">Proyectos:</h3>
+    <section className="my-[50px]">
+      <h3 className="text-3xl font-bold text-red-600 my-3">Proyectos:</h3>
       <article className="flex gap-10">
         {works.map((work) => (
           <Card
