@@ -4,7 +4,8 @@ import NavBar from "@/components/NavBar";
 import useThemeStore from "./store/themeStore";
 import Works from "@/components/Works";
 import Technologies from "./components/Technologies";
-import Footer from "./components/Footer";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 function App() {
   const { theme } = useThemeStore();
@@ -21,6 +22,7 @@ function App() {
           <About />
           <Technologies />
           <Works />
+          <Contact />
         </main>
         <Footer />
       </div>
