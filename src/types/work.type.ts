@@ -3,4 +3,5 @@ export interface WorkType{
     image:string;
     description:string;
     link:string;
+    tech:string[];
 }

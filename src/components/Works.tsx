@@ -14,6 +14,7 @@ function Works() {
             description={work.description}
             image={work.image}
             link={work.link}
+            technologies={work.tech}
           />
         ))}
       </article>
