@@ -13,7 +13,7 @@ function App() {
     <>
       <div
         className={`min-h-screen ${
-          theme === "dark" ? "bg-black text-white" : "bg-white"
+          theme === "dark" ? "bg-[#08101c] text-white" : "bg-white"
         } `}
       >
         <NavBar />

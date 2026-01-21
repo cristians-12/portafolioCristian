@@ -30,7 +30,7 @@ export const works: WorkType[] = [
     image: "/images/yemas.webp",
     description:
       "Mantenimiento, desarrollo y creacion de endpoints de servicio API REST desarrollado con Node.js y gestor de base de datos PostgreSQL.",
-    link: "https://trello-clone-chi.vercel.app",
+    link: "",
     tech: ['Node.js', 'JavaScript']
   },
   {
@@ -42,11 +42,11 @@ export const works: WorkType[] = [
     tech: ['React Native', 'TypeScript', 'Redux Sagas']
   },
   {
-    title: "PadelMax",
+    title: "DosifiApp",
     image: "/images/padel.png",
     description:
-      "Desarrollo de una aplicación móvil con funcionalidades de red social, orientada al agendamiento y organización de partidos de pádel en distintas canchas a nivel nacional con compras integradas.",
-    link: "https://padelmax.net/",
+      "Aplicacion movil encargada de llevar registro de dosificiaciones diarias de piscicultores y comunicacion en tiempo real.",
+    link: "",
     tech: ['React Native', 'TypeScript', 'Redux Sagas']
   },
 ];

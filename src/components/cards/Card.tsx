@@ -15,8 +15,8 @@ const Card: React.FC<CardProps> = ({ title, image, description, link, technologi
   const scrollRef = useHorizontalDrag();
   return (
     <div
-      className="lg:w-[20vw] rounded-2xl hover:scale-110  backdrop-blur-xl
-          bg-white/20
+      className="lg:w-[20vw] rounded-2xl hover:scale-110
+          bg-white/10
           border-white/20
           border
 
@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ title, image, description, link, technologi
     >
 
       <div
-        className={`cursor-pointer lg:h-[45vh] rounded-2xl ${theme === "dark" ? "bg-black text-white" : ""
+        className={`cursor-pointer lg:h-[45vh] rounded-2xl ${theme === "dark" ? "bg-none text-white" : ""
           } flex-col items-center justify-center shadow-2xl p-5 border-none`}
       >
         <a href={link}>
