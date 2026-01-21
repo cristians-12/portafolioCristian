@@ -1,6 +1,4 @@
 import React from "react";
-import { Tilt } from "react-tilt";
-import { MagicCard } from "@/components/ui/magic-card";
 import useThemeStore from "@/store/themeStore";
 import { useHorizontalDrag } from "@/hooks/useHorizontalDrag";
 
