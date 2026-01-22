@@ -22,7 +22,7 @@ export const works: WorkType[] = [
     image: "/images/entrenador.png",
     description:
       "Plataforma que conecta usuarios deportistas con entrenadores, proporciona rutinas de ejercicio y registro de records.",
-    link: "",
+    link: "https://myvirtualtrainer.co/",
     tech: ['Vue3.js', 'Firebase']
   },
   {
