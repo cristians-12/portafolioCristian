@@ -5,10 +5,10 @@ function Contact() {
   return (
     <>
       <section>
-        <h2 className="font-bold text-[2rem] text-center">
+        <h2 className="font-bold lg:text-[2rem] text-[1.5rem] text-center">
           ¡Trabajemos juntos!
         </h2>
-        <p className="text-center text-[1.5rem] my-5">
+        <p className="text-center lg:text-[1.5rem] text-[1rem] my-5">
           Pongamonos en contacto y llevemos a cabo lo que tengas en mente.
         </p>
         <div className="flex justify-center">

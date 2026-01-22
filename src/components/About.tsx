@@ -5,7 +5,7 @@ function About() {
     <section className='lg:flex justify-around items-center'>
       <section className='lg:w-[100%]'>
         <h3 className="text-xl font-bold my-4 text-red-600">Introduccion</h3>
-        <p className="text-2xl text-gray-400">
+        <p className="lg:text-2xl text-gray-400">
           Me llamo <span className="text-red-600 font-bold">Cristian</span>, soy
           <span className="font-semibold"> ingeniero electrónico</span> apasionado por la
           <span className="font-semibold"> tecnología</span> y especializado en
@@ -18,7 +18,7 @@ function About() {
           garantizar calidad.
         </p>
         <br />
-        <p className="text-2xl text-gray-400">
+        <p className="lg:text-2xl text-gray-400">
           Tengo proyectos y experiencia con{" "}
           <span className="font-semibold">MySQL</span>,{" "}
           <span className="font-semibold">PostgreSQL</span>,{" "}
