@@ -83,7 +83,8 @@ body {
   background: transparent;
 }
 ::selection {
-  background: #FF0000;
+  background: #ff6a6a;
+  color: white
 }
 
 
