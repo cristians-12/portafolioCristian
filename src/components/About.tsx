@@ -12,7 +12,7 @@ function About() {
           el desarrollo de
           <span className="font-semibold"> aplicaciones móviles</span> y
           <span className="font-semibold"> web</span>. Cuento con
-          <span className="font-semibold"> 4 años de experiencia</span> en el
+          <span className="font-semibold"> 3 años de experiencia</span> en el
           área de la tecnología y me enfoco en desarrollar código limpio, escalable y mantenible utilizando principios SOLID y
           aplicando siempre las mejores prácticas de programación para
           garantizar calidad.
