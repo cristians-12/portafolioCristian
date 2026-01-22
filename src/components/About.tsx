@@ -3,7 +3,7 @@ import profile from '../assets/images/1.png'
 function About() {
   return (
     <section className='lg:flex justify-around items-center'>
-      <section className='lg:w-[50%]'>
+      <section className='lg:w-[100%]'>
         <h3 className="text-xl font-bold my-4 text-red-600">Introduccion</h3>
         <p className="text-2xl text-gray-400">
           Me llamo <span className="text-red-600 font-bold">Cristian</span>, soy
@@ -36,9 +36,9 @@ function About() {
           comunicación eficiente entre cliente y servidor.
         </p>
       </section>
-      <figure className='lg:w-[30%]'>
+      {/* <figure className='lg:w-[30%]'>
         <img className='w-full object-cover' src={profile} alt="" />
-      </figure>
+      </figure> */}
     </section>
   );
 }
