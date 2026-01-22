@@ -50,7 +50,7 @@ const Card: React.FC<CardProps> = ({ title, image, description, link, technologi
             {technologies.map((tech) => (
               <p
                 key={tech}
-                className="shrink-0 snap-start text-gray-400 border border-gray px-3 py-1 rounded-full whitespace-nowrap"
+                className="shrink-0 snap-start text-gray-400 border border-gray px-3 py-1 rounded-full whitespace-nowrap no-select"
               >
                 {tech}
               </p>

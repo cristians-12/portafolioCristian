@@ -79,6 +79,14 @@ body {
   transition: all ease-in-out 0.2s;
 }
 
+.no-select::selection {
+  background: transparent;
+}
+::selection {
+  background: #FF0000;
+}
+
+
 @layer base {
   * {
     @apply border-border;
