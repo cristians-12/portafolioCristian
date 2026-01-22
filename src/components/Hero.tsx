@@ -35,9 +35,9 @@ function Hero() {
       <div
         className={`relative ${
           theme === "dark" ? "bg-[#08101c]" : "bg-white"
-        } flex lg:h-[500px] h-[300px] w-full flex-col items-center justify-center overflow-hidden rounded-lg transition-colors duration-500 md:shadow-xl px-[10%]`}
+        } flex lg:h-[500px] h-[300px] w-full flex-col items-center justify-center overflow-hidden rounded-lg transition-colors duration-500 md:shadow-xl lg:px-[10%] px-[5%]`}
       >
-        <span className="pointer-events-none whitespace-pre-wrap text-center text-3xl sm:text-6xl lg:text-8xl font-semibold leading-none text-transparent bg-gradient-to-b from-transparent via-red-500 to-red-600 bg-clip-text dark:from-white dark:to-slate-900/20">
+        <span className="pointer-events-none whitespace-pre-wrap text-center text-3xl sm:text-6xl lg:text-8xl font-semibold leading-none text-transparent lg:bg-gradient-to-b from-transparent via-red-500 to-red-600 bg-clip-text dark:from-white dark:to-slate-900/20 bg-red-500">
           {text}
           <span
             className={`inline-block ${
