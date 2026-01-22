@@ -42,11 +42,11 @@ export const works: WorkType[] = [
     tech: ['React Native', 'TypeScript', 'Redux Sagas']
   },
   {
-    title: "DosifiApp",
-    image: "/images/padel.png",
+    title: "Centro Cognitivo",
+    image: "/images/centro.png",
     description:
-      "Aplicacion movil encargada de llevar registro de dosificiaciones diarias de piscicultores y comunicacion en tiempo real.",
+      "Landing page para agendamiento de consultas psicologicas e informacion general.",
     link: "",
-    tech: ['React Native', 'TypeScript', 'Redux Sagas']
+    tech: ['React.js', 'TypeScript']
   },
 ];
