@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ title, image, description, link, technologi
   const scrollRef = useHorizontalDrag();
   return (
     <div
-      className="lg:w-[20vw] rounded-2xl hover:scale-110 bg-white/10 border-white/20 border hover:bg-white/30 hover:shadow-2xl">
+      className="lg:w-[20vw] w-[70vw] rounded-2xl hover:scale-110 bg-white/10 border-white/20 border hover:bg-white/30 hover:shadow-2xl">
       <div
         className={`cursor-pointer rounded-2xl ${theme === "dark" ? "bg-none text-white" : ""
           } flex-col items-center justify-center shadow-2xl p-5 border-none`}
