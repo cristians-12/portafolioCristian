@@ -3,7 +3,7 @@ import Card from "./cards/Card";
 
 function Works() {
   return (
-    <section className="my-[50px]">
+    <section className="my-[50px] w-[100vw]">
       <h3 className="text-3xl font-bold text-red-600 my-10">
         Algunos de mis proyectos:
       </h3>

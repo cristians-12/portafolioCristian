@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ title, image, description, link, technologi
     >
 
       <div
-        className={`cursor-pointer lg:h-[45vh] rounded-2xl ${theme === "dark" ? "bg-none text-white" : ""
+        className={`cursor-pointer rounded-2xl ${theme === "dark" ? "bg-none text-white" : ""
           } flex-col items-center justify-center shadow-2xl p-5 border-none`}
       >
         <a href={link}>

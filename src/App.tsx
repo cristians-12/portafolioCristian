@@ -12,18 +12,22 @@ function App() {
   return (
     <>
       <div
-        className={`min-h-screen ${
-          theme === "dark" ? "bg-[#08101c] text-white" : "bg-white"
-        } `}
+        className={`min-h-screen ${theme === "dark" ? "bg-[#08101c] text-white" : "bg-white"
+          } `}
       >
         <NavBar />
         <Hero />
-        <main className="lg:px-[15rem] px-[3rem] ">
+        <main className="lg:px-[15rem] px-[3rem]">
           <About />
           <Technologies />
-          <Works />
-          <Contact />
+
         </main>
+
+        <div>
+          <Works />
+        </div>
+
+        <Contact />
         <Footer />
       </div>
     </>
